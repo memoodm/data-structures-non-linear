@@ -1,0 +1,38 @@
+class BinaryTree:
+
+  # make a new object instance of the BinaryTree class
+  def __init__(self):
+    pass
+
+  # add a new value-node to the collecion, if the node already exist nothing happends
+  def add(self, value):
+    pass
+
+  # remove the desired value-node from the collecion
+  # ERROR: if the value-node dont exist, an exception must be thrown
+  def remove(self, value):
+    pass
+
+  # return the length of the elements in the collection
+  def __len__(self):
+      pass
+
+  # return a boolean that implies if the collection is empty or not
+  def isEmpty(self):
+      pass
+
+  # allow the collection to be called in a for loop
+  def __iter__(self):
+      pass
+    
+  # return a boolean value-node representing the existence of an element in the collection
+  def __contains__(self, value):
+      pass
+
+  # remove all elements in the collection
+  def clear(self):
+      pass
+
+  # generate a draw of the current tree
+  def draw(self):
+      pass
